@@ -75,7 +75,7 @@ const Navbar = () => {
               <span>Home</span>
               <motion.span 
                 variants={lineVariants}
-                className="absolute bottom-0 left-0 right-0 h-[2px] bg-black origin-center"
+                className="absolute bottom-0 left-0 right-0 h-0.5 bg-black origin-center"
               />
             </motion.li>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
               <span>Work <span className='text-gray-500'>[20+]</span></span>
               <motion.span 
                 variants={lineVariants}
-                className="absolute bottom-0 left-0 right-0 h-[2px] bg-black origin-center"
+                className="absolute bottom-0 left-0 right-0 h-0.5 bg-black origin-center"
               />
             </motion.li>
 
@@ -103,7 +103,7 @@ const Navbar = () => {
               <span>Experience <span className='text-gray-500'>[10+]</span></span>
               <motion.span 
                 variants={lineVariants}
-                className="absolute bottom-0 left-0 right-0 h-[2px] bg-black origin-center"
+                className="absolute bottom-0 left-0 right-0 h-0.5 bg-black origin-center"
               />
             </motion.li>
 
@@ -117,7 +117,7 @@ const Navbar = () => {
               <span>Contact</span>
               <motion.span 
                 variants={lineVariants}
-                className="absolute bottom-0 left-0 right-0 h-[2px] bg-black origin-center"
+                className="absolute bottom-0 left-0 right-0 h-0.5 bg-black origin-center"
               />
             </motion.li>
           </motion.ul>
