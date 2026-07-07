@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../Layout/Navbar";
-import HeroImg from "../../Assets/HeroImg.jpg";
+import HeroImg from "../../assets/HeroImg.jpg";
 import { FaLinkedinIn, FaDribbble, FaInstagram, FaGithub } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
